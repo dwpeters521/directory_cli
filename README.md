@@ -14,16 +14,16 @@ pyenv virtualenv directory_cli
 pyenv activate directory_cli
 ```
 
-Install basic requirements:
-
-```bash
-pip install -r requirements.txt
-```
-
 
 And run the application from the `src` directory:
 
 ```bash
 cd src
 python directories.py
+```
+
+If you wish to run the test suite, you may similarly run that file from the `src` directory:
+
+```
+python tests.py
 ```
